@@ -1,0 +1,22 @@
+{
+  "name": "imaginix-graphics-2",
+  "version": "1.0.0",
+  "description": "Imaginix Graphics For The My Brother A Website Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohdKamran2006k/Imaginix-graphics-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohdKamran2006k/Imaginix-graphics-2/issues"
+  },
+  "homepage": "https://github.com/MohdKamran2006k/Imaginix-graphics-2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
