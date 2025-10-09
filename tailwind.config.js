@@ -8,7 +8,7 @@ module.exports = {
         Secondry: ['"Source Sans 3"', "sans-serif"],
       },
       colors: {
-        primary: "#51af74",
+        primary: "white",
         outline: "grey",
         button: "#dc2b45",
       },
