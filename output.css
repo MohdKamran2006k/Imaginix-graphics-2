@@ -560,8 +560,20 @@ video {
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
 .inset-1{
   inset: 0.25rem;
+}
+
+.bottom-5{
+  bottom: 1.25rem;
+}
+
+.left-1\/2{
+  left: 50%;
 }
 
 .flex{
@@ -580,12 +592,37 @@ video {
   height: 2.25rem;
 }
 
+.h-3{
+  height: 0.75rem;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
 .w-4{
   width: 1rem;
 }
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-3{
+  width: 0.75rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer{
@@ -604,10 +641,6 @@ video {
   justify-content: flex-end;
 }
 
-.justify-center{
-  justify-content: center;
-}
-
 .justify-between{
   justify-content: space-between;
 }
@@ -620,8 +653,20 @@ video {
   gap: 3rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border{
@@ -641,6 +686,15 @@ video {
 .bg-yellow-300{
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white\/50{
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4{
@@ -673,38 +727,17 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .font-primary{
   font-family: Inter, sans-serif;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .font-medium{
@@ -713,14 +746,6 @@ video {
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-extrabold{
-  font-weight: 800;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .text-blue-600{
@@ -745,6 +770,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-150{
   transition-duration: 150ms;
 }
@@ -755,6 +786,14 @@ video {
 
 .duration-500{
   transition-duration: 500ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:scale-95:hover{
