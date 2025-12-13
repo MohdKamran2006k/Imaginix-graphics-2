@@ -11,6 +11,7 @@ module.exports = {
         primary: "white",
         outline: "grey",
         button: "#dc2b45",
+        border_Color:"#C5CDDD"
       },
     },
   },
