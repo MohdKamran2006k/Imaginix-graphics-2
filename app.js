@@ -46,3 +46,13 @@ closebtn.addEventListener("click", () => {
 
   // Initial slide
   showSlide(0);
+
+// Get the element you want to follow the mouse
+const follower = document.getElementById('follower');
+
+// Add a listener for mouse movement on the whole page
+window.addEventListener('mousemove', (e) => {
+  // Move the follower element to the mouse's current X and Y position
+  follower.style.left = e.clientX + 'px';
+  follower.style.top = e.clientY + 'px';
+});

@@ -608,6 +608,10 @@ video {
   z-index: 10;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -895,6 +899,11 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
 .p-12{
   padding: 3rem;
 }
@@ -1001,6 +1010,16 @@ video {
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-8{
