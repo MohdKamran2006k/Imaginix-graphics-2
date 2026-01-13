@@ -11,7 +11,8 @@ module.exports = {
         primary: "white",
         outline: "grey",
         button: "#dc2b45",
-        border_Color:"#C5CDDD"
+        border_Color:"#C5CDDD",
+        footer_olor:"#1d1d1d"
       },
     },
   },
